@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pendahuluan"
+            android:icon="@drawable/pendahuluan"
+            android:title="Pendahuluan" />
+        <item
+            android:id="@+id/nav_perencanaan"
+            android:icon="@drawable/perencanaan"
+            android:title="Perencanaan" />
+        <item
+            android:id="@+id/nav_peralatan"
+            android:icon="@drawable/peralatan"
+            android:title="Peralatan" />
+        <item
+            android:id="@+id/nav_psikologi"
+            android:icon="@drawable/psikologi"
+            android:title="Psikologi" />
+        <item
+            android:id="@+id/nav_obat"
+            android:icon="@drawable/hospital"
+            android:title="Pertolongan Pertama" />
+        <item
+            android:id="@+id/nav_air"
+            android:icon="@drawable/air"
+            android:title="Air" />
+        <item
+            android:id="@+id/nav_api"
+            android:icon="@drawable/api"
+            android:title="Api" />
+        <item
+            android:id="@+id/nav_makanan"
+            android:icon="@drawable/makanan"
+            android:title="Makanan" />
+        <item
+            android:id="@+id/nav_penanda"
+            android:icon="@drawable/flag"
+            android:title="Sinyal Penanda" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Tempat Perlindungan" />
+        <item
+            android:id="@+id/nav_tumbuhan"
+            android:icon="@drawable/tumbuhan"
+            android:title="Tumbuhan" />
+        <item
+            android:id="@+id/nav_bahaya"
+            android:icon="@drawable/bahaya"
+            android:title="Ancaman Bahaya" />
+        <item
+            android:id="@+id/nav_jebakan"
+            android:icon="@drawable/jebakan"
+            android:title="Jebakan" />
+        <item
+            android:id="@+id/nav_cuaca"
+            android:icon="@drawable/cuaca"
+            android:title="Cuaca" />
+        <item
+            android:id="@+id/nav_lokasi"
+            android:icon="@drawable/lokasi"
+            android:title="Navigasi" />
+        <item
+            android:id="@+id/nav_masyarakat"
+            android:icon="@drawable/masyarakat"
+            android:title="Masyarakat" />
+        <item
+            android:id="@+id/nav_credit"
+            android:icon="@drawable/pustaka"
+            android:title="Daftar Pustaka" />
+    </group>
+    <item android:title="Aplikasi Pendukung">
+        <menu>
+            <item
+                android:id="@+id/nav_kompas"
+                android:icon="@drawable/arah"
+                android:title="Kompas" />
+            <item
+                android:id="@+id/nav_kanvas"
+                android:icon="@drawable/kanvas"
+                android:title="Kanvas" />
+        </menu>
+    </item>
+
+</menu>
